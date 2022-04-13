@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/logo"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Indo Shoes"
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/black"
+            android:textSize="7.2pt"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="5dp"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="320dp"
+        android:layout_height="250dp"
+        android:src="@drawable/objek_bg2"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppins"
+        android:textSize="10.5pt"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/subIntro1"
+        android:fontFamily="@font/poppins_regular"
+        android:textSize="6pt"
+        android:textColor="@color/black_grey"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="8.5pt"
+        android:layout_marginTop="78dp"
+        android:background="@drawable/button_bg"
+        android:clickable="true"/>
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="320dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="center"
+        android:textSize="8.5pt"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/outline_button"
+        android:clickable="true"/>
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:text="@string/syaratKetentuan"
+        android:fontFamily="@font/poppins_regular"
+        android:textSize="6pt"
+        android:textColor="@color/black_grey"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

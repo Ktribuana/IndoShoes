@@ -1,0 +1,14 @@
+<resources>
+    <string name="web_client_id">207590280623-g8job7fjpt933e2i2837tjt044bmnv03.apps.googleusercontent.com</string>
+    <string name="app_name">Indo Shoes</string>
+    <string name="welcome">Welcome to Indo Shoes!</string>
+    <string name="login_text">Welcome back you\'ve been missed!</string>
+    <string name="subIntro1">An application that helps you find your favorite local shoes anytime, anywhere and of course makes you even cooler.</string>
+    <string name="syaratKetentuan">By logging in or registering, you agree to the Terms of Service and Privacy Policy.</string>
+
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="shopping">Shopping</string>
+    <string name="profile">Profile</string>
+    <string name="register_text">Let\'s register first to get started!</string>
+</resources>

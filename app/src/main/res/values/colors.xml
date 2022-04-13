@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#18606B</color>
+    <color name="black_grey">#25242B</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="editTextColor">#14000000</color>
+    <color name="filledColor">#00FFFFFF</color>
+    <color name="outlineColor">#18606B</color>
+</resources>

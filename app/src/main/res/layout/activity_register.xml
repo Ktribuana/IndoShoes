@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/logo"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Indo Shoes"
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/black"
+            android:textSize="7.2pt"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="5dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Welcome!"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/black_grey"
+        android:textSize="13pt"
+        android:textAlignment="center"
+        android:layout_gravity="center" />
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="@string/register_text"
+        android:textSize="7.4pt"
+        android:fontFamily="@font/poppins_regular"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/black_grey" />
+
+    <EditText
+        android:id="@+id/emailReg"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:paddingRight="25dp"
+        android:paddingStart="25dp"
+        android:layout_marginTop="45dp"
+        android:layout_gravity="center"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:textSize="7pt"
+        android:fontFamily="@font/poppins_regular"
+        android:textColor="@color/black_grey"
+        android:textColorHint="#8F8F8F"
+        android:background="@drawable/edit_text_button"
+        android:drawableRight="@drawable/ic_email" />
+
+    <EditText
+        android:id="@+id/usernameReg"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:paddingRight="25dp"
+        android:paddingStart="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:inputType="textPersonName"
+        android:hint="Username"
+        android:textSize="7pt"
+        android:fontFamily="@font/poppins_regular"
+        android:textColor="@color/black_grey"
+        android:textColorHint="#8F8F8F"
+        android:background="@drawable/edit_text_button"
+        android:drawableRight="@drawable/ic_username" />
+
+    <EditText
+        android:id="@+id/passwordReg"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:paddingStart="25dp"
+        android:paddingRight="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:fontFamily="@font/poppins_regular"
+        android:textSize="7pt"
+        android:background="@drawable/edit_text_button"
+        android:drawableRight="@drawable/ic_passwordhide"
+        android:textColor="@color/black_grey"
+        android:textColorHint="#8F8F8F"
+        android:longClickable="false" />
+
+    <EditText
+        android:id="@+id/confirmPassReg"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:paddingStart="25dp"
+        android:paddingRight="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:inputType="textPassword"
+        android:hint="Password Confirmation"
+        android:fontFamily="@font/poppins_regular"
+        android:textSize="7pt"
+        android:background="@drawable/edit_text_button"
+        android:drawableRight="@drawable/ic_passwordhide"
+        android:textColor="@color/black_grey"
+        android:textColorHint="#8F8F8F"
+        android:longClickable="false" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:clickable="true"
+        android:text="Register"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins"
+        android:textAllCaps="false"
+        android:textSize="8.5pt"
+        android:background="@drawable/button_bg"
+        android:longClickable="true"/>
+
+    <LinearLayout
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="25dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:paddingTop="9dp"
+            android:src="@drawable/line" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="or continue with"
+            android:textSize="5.5pt"
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="#8F8F8F"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line"
+            android:paddingTop="9dp"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+        <ImageButton
+            android:id="@+id/btnFb"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/ic_fb"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/sosmed_button"
+            android:clickable="true"/>
+        <ImageButton
+            android:id="@+id/btnGoogle"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/ic_google"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/sosmed_button"
+            android:clickable="true"/>
+        <ImageButton
+            android:id="@+id/btnTwitter"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/ic_twitter"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/sosmed_button"
+            android:clickable="true"/>
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
