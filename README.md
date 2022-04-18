@@ -37,4 +37,4 @@ Tampilan Dashboard
 
 Pada Dashboard, terdapat display name yang ditampilkan sesuai dengan username yang dimasukan sewaktu registrasi.
 
-![image](https://user-images.githubusercontent.com/86703933/163186648-2025ca72-11b9-444b-99d3-6eb16d3a535e.png)
+![image](https://user-images.githubusercontent.com/86703933/163820602-8c78071b-b536-425a-8b6a-5758714dcb59.png)
